@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".post.UserFeedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+
+        <jahirfiquitiva.libs.fabsmenu.FABsMenuLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="11dp"
+            app:fabs_menu_overlayColor="#4d000000"
+            app:fabs_menu_clickableOverlay="true"
+            tools:layout_behavior="@string/fabs_menu_layout_behavior">
+
+            <jahirfiquitiva.libs.fabsmenu.FABsMenu
+                android:id="@+id/profile_fabs_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:clipChildren="false"
+                app:fab_menuMargins="16dp"
+                app:fab_moreButtonPlusIcon="@drawable/ic_add_white_24dp"
+                app:fab_moreButtonBackgroundColor="@color/colorPrimary"
+                app:fab_moreButtonRippleColor="@color/colorPrimaryDark"
+                app:fab_moreButtonSize="normal"
+                app:fab_labelsPosition="left"
+                app:fab_expandDirection="up">
+
+            </jahirfiquitiva.libs.fabsmenu.FABsMenu>
+
+        </jahirfiquitiva.libs.fabsmenu.FABsMenuLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

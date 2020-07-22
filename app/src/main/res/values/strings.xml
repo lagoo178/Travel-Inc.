@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Travel .Inc</string>
+
+    <string name="default_notification_channel_id">default</string>
+    <string name="title_activity_map_view">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post_view">Post</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="your_string_here">This is an <u>underline</u>.</string>
+    <string name="Create_Post"><u> Create Your Own Post </u></string>
+    <string name="rating">Rating</string>
+    <string name="menu">Menu</string>
+    <string name="details">Details</string>
+    <string name="default_text">-</string>
+
+    <string-array name="title_place">
+        <item>Double Six Beach</item>
+        <item>Sacred Monkey Forest Sanctuary</item>
+        <item>Mrs Sippy</item>
+        <item>Lucky Cat Coffee and Kitchen</item>
+        <item>Tap House Beer Garden and Beer House</item>
+    </string-array>
+
+    <string-array name="desc_place">
+        <item>Relaxed beach popular with travelers offering umbrella rentals,live music, and a chill ambiance. Legian,seminyak,kuta,Kab.Badung, Bali Open , 24 Hours</item>
+        <item>Nature Reserves and temple complex ,Ubud, Bali Open , 10AM - 5PM</item>
+        <item>Beach Club and Western Restaurant\nSeminyak, kuta utara , badung\nOpen , 10AM - 9PM</item>
+        <item>kedai kopi yang Instagrammable dan sedang hits di Jakarta.   Parkir Selatan Plaza Festival, Jl. H. R. Rasuna Said No.C22, RT.2/RW.5, Karet Kuningan, Kota Jakarta Selatan Open , 24 Hours</item>
+        <item>Hal yang unik dari tempat yang satu ini adalah desain interior yang sengaja dibuat seperti bangunan yang sudah tidak digunakan. Lokasinya di Jl. Jlagran nomor 18 Open, 24 Hours</item>
+    </string-array>
+
+    <string-array name="rating_place">
+        <item>4</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3.5</item>
+        <item>3.5</item>
+    </string-array>
+
+    <array name="menu_image_place">
+        <item>@drawable/menu_double_place</item>
+        <item>@drawable/menu_monkey_forest_place</item>
+        <item>@drawable/logo_cover</item>
+        <item>@drawable/menu_lucky_place</item>
+        <item>@drawable/menu_tap_house_place</item>
+    </array>
+
+    <string-array name="details_place">
+        <item>"Rp.150.000 for two people (approx.)\nCash And Cards accepted"</item>
+        <item>Rp.160.000 for two people (approx.)\nCash And Cards accepted</item>
+        <item>Rp.200.000 for two people (approx.)\nCash And Cards accepted</item>
+        <item>"Rp.150.000 for two people (approx.)\nCash And Cards accepted"</item>
+        <item>"Rp.150.000 for two people (approx.)\nCash And Cards accepted"</item>
+    </string-array>
+
+    <array name="image_place">
+        <item>@drawable/double_place</item>
+        <item>@drawable/monkey_forest_place</item>
+        <item>@drawable/mrs_sippy_place</item>
+        <item>@drawable/lucky_place</item>
+        <item>@drawable/tap_house_place</item>
+    </array>
+
+    <array name="image_banner">
+        <item>@drawable/banner_1</item>
+        <item>@drawable/banner_2</item>
+    </array>
+</resources>
